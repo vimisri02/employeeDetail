@@ -1,4 +1,6 @@
-**Employee Management System**
+ 
+
+**Simple Employee Management System without using reducer** 
 
 
 This project is a simple Employee Management System built using React. It allows users to add, edit, and delete employee information through a user-friendly interface.
