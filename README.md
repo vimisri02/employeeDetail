@@ -1,74 +1,52 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+**Employee Management System**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a simple Employee Management System built using React. It allows users to add, edit, and delete employee information through a user-friendly interface.
 
-In the project directory, you can run:
+**Features**
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Add Employee: Users can add new employees to the system by filling out a form with their details such as first name, last name, email address, password, and confirm password.
+Edit Employee: Existing employee information can be edited easily. Users can update employee details through the same form used for adding employees.
+Delete Employee: Employees can be removed from the system with a simple click of a button.
+Clear Form: Users have the option to clear the form fields if they want to start over or make corrections.
+**Components**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**MainComponent**
 
-### `npm test`
+  Description: This component serves as the main interface for the Employee Management System. It includes the employee form for adding and editing employees, as well as a list of employees displayed in a table format.
+  Dependencies: Utilizes the useState and useEffect hooks from React for managing state and side effects.
+  Functionality: Allows users to add, edit, and delete employee information. It also controls the modal for displaying the employee form.
+  
+**EmployeeDetail**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  Description: This component displays the list of employees in a table format. It includes buttons for editing and deleting each employee.
+  Dependencies: Receives props from the MainComponent to display employee data and handle edit/delete actions.
+  
+**EmployeeForm**
 
-### `npm run build`
+  Description: This component provides a form for adding and editing employee information. It includes input fields for first name, last name, email address, password, and confirm password.
+  Dependencies: Utilizes the useState hook for managing form state and handles form submission.
+  
+**Usage**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Clone the repository to your local machine.
+  Navigate to the project directory.
+  Install dependencies using npm install.
+  Run the application using npm start.
+  Access the application in your web browser at http://localhost:3000.
+  
+**Technologies Used**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  React: Frontend JavaScript library for building user interfaces.
+  HTML/CSS: Markup and styling languages for structuring and designing the user interface.
+  Bootstrap: CSS framework for responsive design and pre-styled components.
+  JavaScript: Programming language used for interactivity and logic within the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Employee details component
+![image](https://github.com/vimisri02/employeeDetail/assets/166305564/3669a65e-28e3-4671-a0ec-43338ab8a7f5)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Employee Add/Edit 
+![image](https://github.com/vimisri02/employeeDetail/assets/166305564/f0908456-efdf-4d67-8419-c5109ac35c62)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# employeeDetail
->>>>>>> origin/main
