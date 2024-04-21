@@ -10,6 +10,7 @@ Add Employee: Users can add new employees to the system by filling out a form wi
 Edit Employee: Existing employee information can be edited easily. Users can update employee details through the same form used for adding employees.
 Delete Employee: Employees can be removed from the system with a simple click of a button.
 Clear Form: Users have the option to clear the form fields if they want to start over or make corrections.
+
 **Components**
 
 **MainComponent**
